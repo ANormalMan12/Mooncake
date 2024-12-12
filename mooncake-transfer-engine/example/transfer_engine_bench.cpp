@@ -62,7 +62,6 @@ DEFINE_string(nic_priority_matrix, "",
               "Path to RDMA NIC priority matrix file (Advanced)");
 
 DEFINE_string(segment_id, "192.168.3.76", "Segment ID to access data");
-DEFINE_int32(batch_size, 128, "Batch size");
 DEFINE_int32(block_size, 4096, "Block size for each transfer request");
 DEFINE_int32(duration, 10, "Test duration in seconds");
 DEFINE_int32(threads, 4, "Task submission threads");
